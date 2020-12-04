@@ -1,0 +1,34 @@
+﻿body {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+#tribute-info {
+    margin: 80px 80px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #50bcdf;
+}
+
+ul {
+    text-align: left;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#font_increase {
+    font-size: 25px;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
