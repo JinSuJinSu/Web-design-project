@@ -1,0 +1,46 @@
+﻿body {
+    text-align: center;
+    background: #50bcdf;
+    color:white;
+}
+
+
+
+p {
+    font-size: 15px;
+}
+
+#description {
+    font-size: 20px;
+}
+
+form {
+    text-align: left;
+    margin-left: 480px;
+    margin-right: auto;
+    font-size:20px;
+}
+
+input[type="text"], select, input[type="email"]{
+    width: 500px;
+    height: 25px;
+}
+
+input[type="number"] {
+    width: 500px;
+    height: 25px;
+    line-height: 27px;
+}
+
+#email{
+
+}
+
+
+#name {
+}
+
+
+
+
+

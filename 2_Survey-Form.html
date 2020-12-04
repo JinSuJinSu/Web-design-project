@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2_Survey Form</title>
+        <script src="2_Survey Form.js"></script>
+        <link rel="stylesheet" href="2_Survey Form.css">
+
+    </head>
+
+
+    <body>
+        <main id="main">
+            <header>
+                <h1 id="title">Blade and Soul Survey Form </h1>
+                <p id="description"> It is the simple form to investigate about game user's preferences</p>
+            </header>
+
+            <br>
+            <br>
+            <br>
+
+
+            <form action="/" method="post" id="survey-form">
+                Name<br>
+                <input type="text" name="user-name" id="name" placeholder="Enter your name"><br>
+                <br>
+
+                Email<br>
+                <input type="email" name="user-email" id="email" placeholder="Enter your email"><br>
+                <br>
+
+                Age<br>
+                <input type="number" name="user-age" id="number" min="1" max="100"><br>
+                <br>
+
+                Main character<br>
+                <input type="text" name="user-main character"><br>
+                <br>
+
+                Except for your main character, what kind of job do you like most?<br>
+
+                <input type="radio" name="chk_info" value="Sworder">Sworder<br>
+                <input type="radio" name="chk_info" value="Magician">Magician<br>
+                <input type="radio" name="chk_info" value="Fighter">Fighter<br>
+                <input type="radio" name="chk_info" value="Archer">Archer<br>
+                <input type="radio" name="chk_info" value=" Priest"> Priest<br>
+                <br>
+
+
+                What is the best option when you choose a job?<br>
+                <select>
+                    <option value="Choose one of these" selected>Choose one of these</option>
+                    <option value="Strength">Strength</option>
+                    <option value="Magic power">Magic power</option>
+                    <option value="Defense">Defense</option>
+                    <option value="Speed">Speed</option>
+                    <option value="Luck">Luck</option>
+                </select>
+
+
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <p>zzzz</p>
+
+
+
+            </form>
+
+
+           
+            
+
+
+
+        </main>
+    </body>
+
+</html>
