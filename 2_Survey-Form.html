@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <title>2_Survey Form</title>
-        <script src="2_Survey Form.js"></script>
-        <link rel="stylesheet" href="2_Survey Form.css">
+        <script src="2_Survey-Form.js"></script>
+        <link rel="stylesheet" href="2_Survey-Form.css">
 
     </head>
 
@@ -22,20 +22,28 @@
 
 
             <form action="/" method="post" id="survey-form">
-                Name<br>
-                <input type="text" name="user-name" id="name" placeholder="Enter your name"><br>
+                <label id="name-label">Name</label><br>
+                <input type="text" name="user-name" id="name" placeholder="Enter your name" pattern="[a-z]" required><br>
                 <br>
 
-                Email<br>
-                <input type="email" name="user-email" id="email" placeholder="Enter your email"><br>
+                <label id="email-label" pattern=".+@globex.com">Email</label><br>
+                <input type="email" name="user-email" id="email" placeholder="Enter your email" required><br>
                 <br>
 
-                Age<br>
-                <input type="number" name="user-age" id="number" min="1" max="100"><br>
+                <label id="number-label" l>Age</label><br>
+                <input type="number" name="user-age" id="number" min="1" max="100" placeholder="Enter age"><br>
                 <br>
 
-                Main character<br>
-                <input type="text" name="user-main character"><br>
+                <label id="main-character">Main Character</label><br>
+                <select id="dropdown">
+                    <option value="Choose one of these" selected>Choose one of these</option>
+                    <option value="Sworder">Sworder</option>
+                    <option value="Magician">Magician</option>
+                    <option value="Fighter">Fighter</option>
+                    <option value="Archer">Archer</option>
+                    <option value="Priest">Priest</option>
+                </select>
+                <br />
                 <br>
 
                 Except for your main character, what kind of job do you like most?<br>
@@ -49,7 +57,7 @@
 
 
                 What is the best option when you choose a job?<br>
-                <select>
+                <select id="dropdown">
                     <option value="Choose one of these" selected>Choose one of these</option>
                     <option value="Strength">Strength</option>
                     <option value="Magic power">Magic power</option>
@@ -59,15 +67,27 @@
                 </select>
 
 
+                <br />
+                <br>
+                How long you have played this game? check your play time <br>
 
-                <br />
-                <br />
-                <br />
-                <br />
+                <input type="checkbox" name="chk_info2" value="lower than 3 months">lower than 3 months<br>
+                <input type="checkbox" name="chk_info2" value="from 3 months to 6 months">from 3 months to 6 months<br>
+                <input type="checkbox" name="chk_info2" value="from 6 months to 9 months">from 6 months to 9 months<br>
+                <input type="checkbox" name="chk_info2" value="from 9 months to 12 months">from 9 months to 12 months<br>
+                <input type="checkbox" name="chk_info2" value="more than 1 year">more than 1 year<br>
+                <br>
+
+                <label>If anyone has questions write and submit to game operators</label><br>
+
+                <textarea id="question" name="question"
+                          rows="10" cols="80">
+                </textarea>
                 <br />
 
-                <p>zzzz</p>
+                <input type="submit" name="submit" value="submit" id="submit" />
 
+><br>
 
 
             </form>
