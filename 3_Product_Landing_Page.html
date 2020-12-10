@@ -11,17 +11,17 @@
 
     <body>
         <main id="main">
-            <form action="/" method="post" id="form">
-                <header>
+            <form action=" https://www.freecodecamp.com/email-submit" method="post" id="form">
+                <header id="header">
                     <nav id="nav-bar">
                         <ul>
-                            <li class="nav-link">effect</li>
-                            <li class="nav-link">pricing</li>
-                            <li class="nav-link">items</li>
+                            <li><a class="nav-link" href="#pricing">pricing</a></li>
+                            <li><a class="nav-link" href="#video">effect</a></li>
+                            <li><a class="nav-link" href="#item-list">items</a></li>
                         </ul>
 
                     </nav>
-                    <h1 id="header"><img src="C:\Users\Administrator\Desktop\이미지임.png" id="header-img" />Cash Items </h1>
+                    <h1><img id="header-img" src="https://ww.namu.la/s/84e2c12de854a831e93ce17014792fa0e9eeb07762f8f1bbeb79eafc537ca813fb4a0fc2e2f8bc294e643ad6f16788b909c6a53dd5a5976660e0edfcc25f9ae5511b943bb94e1a34e155e71f59bd07ce85fc7b4b9ee7195d4d1c2af58c5ab636" />Cash Items </h1>
 
 
                 </header>
@@ -41,16 +41,62 @@
                     <p>There are sharp swords, powerful wonds, high accuracy rate bows, light crosses</p>
 
                     <h3>Armors for every job</h3>
-                    <p>There are physical attack, plus magical attack, plus magical defense, plus physical defense</p>
+                    <p>There are physical attack,  magical attack upgrade, magical defense upgrade, physical defense upgrade</p>
 
                     <h3>Potions for every job</h3>
                     <p>There are hp full recovery, mp full recovery, all conditions recovery, super Elixirs</p>
+                    <br />
+
+                    <p>
+                        <strong class="font-upgrade">You can check some items and effects by watching below Youtube video</strong>
+                    </p>
 
                 </section>
 
-                <video autoplay controls>
+                <iframe src="https://www.youtube.com/embed/M_eozRbhylo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
 
-                </video>
+
+                <section id="pricing">
+                    <div class="product">
+                        <div class="level">Potions</div>
+                        <h4>$1000</h4>
+                        <ol>
+                            <li>hp full recovery 30</li>
+                            <li>mp full recovery 20</li>
+                            <li>all conditions recovery 10</li>
+                            <li>super Elixirs 5</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product">
+                        <div class="level">Armors</div>
+                        <h4>$2000</h4>
+                        <ol>
+                            <li>physical attack + 30</li>
+                            <li>magical attack + 30</li>
+                            <li>magical defense + 100</li>
+                            <li>physical defense + 100</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product">
+                        <div class="level">Weapons</div>
+                        <h4>$3000</h4>
+                        <ol>
+                            <li>sharp swords</li>
+                            <li>powerful wonds</li>
+                            <li>Lhigh accuracy rate bows</li>
+                            <li>light crosses</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+
+                    <footer id="footer">
+                        The End
+                    </footer>
+                </section>
+
+
 
 
 
