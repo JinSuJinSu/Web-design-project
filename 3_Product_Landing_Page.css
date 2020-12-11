@@ -28,9 +28,10 @@ li {
     list-style: none;
 }
 
-body{
-    font-size:20px;
-    text-align:center;
+body {
+    font-size: 20px;
+    text-align: center;
+    background-color: tan;
 }
 
 input[type="email"] {
@@ -107,4 +108,13 @@ ol {
 
 #footer{
     display:flex;
+    margin-bottom:0;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lawngreen;
+    }
 }
